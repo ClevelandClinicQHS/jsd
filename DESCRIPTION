@@ -1,0 +1,31 @@
+Type: Package
+Package: jsd
+Title: Multidimensional Balance Assessment the Jensen-Shannon
+    Diverenge
+Version: 0.2
+Date: 2020-01-30
+Authors@R: 
+    c(person(given = "Nik",
+             family = "Krieger, MA, MS",
+             role = c("aut", "cre"),
+             email = "kriegen@ccf.org"),
+      person(given = "Jarrod",
+             family = "Dalton, PhD",
+             role = "aut",
+             email = "daltonj@ccf.org"))
+Maintainer: Jarrod E. Dalton, PhD <daltonj@ccf.org>
+Description: Implements the Jensen-Shannon Divergence (JSD) for
+    balance assessment on binary, categorical or continuous variables.
+    Continuous variables are transformed to factors - via the function
+    chop() - prior to computation.
+License: GPL 3.0
+URL: https://github.com/jarrod-dalton/jsd,
+BugReports: https://github.com/jarrod-dalton/jsd/issues
+Imports: 
+    Hmisc (>= 4.3.0),
+    rlang (>= 0.4.3),
+    magrittr (>= 1.5)
+Encoding: UTF-8
+LazyData: TRUE
+LazyLoad: yes
+RoxygenNote: 7.0.2
